@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Unordered list</title>
+</head>
+<body>
+   <h1>Unordered list</h1>
+   <div>
+    My typicall dinner shopping list:
+    <ul>
+     <li>Milk</li>
+     <li>Donuts</li>
+     <li>Cookies
+       <ul>
+         <li>Chocolate</li>
+         <li>Sugar</li>
+         <li>Peanut Butter</li>
+
+       </ul>
+     <li>Pepto Bismal</li>
+    </ul>
+
+  </div>
+
+</body>
+
+</html>
+
+
+
