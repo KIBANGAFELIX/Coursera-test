@@ -1,19 +1,76 @@
-<style>
 * {
   box-sizing: border-box;
+  font-family: Helvetica,sans-serif;
 }
 h1 {
-  margin-bottom: 15px;
-  
+  text-align: center;
+  font-size: 175%;
+  margin-bottom: 28px;
 }
 
-p {
-  border: 1px solid black;
+
+.box {
+  position: relative;
   background-color: grey;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
+  border: 2px solid green;
+  margin: 15px;
+}
+
+div.box > div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 125%;
+  padding: 3px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  border: 1px solid blueviolet;
+  width: auto;
+}
+p {
+  position: relative;
+  text-align: left;
+  padding: 24px 5px 0px 5px; 
+}
+#title1 {
+  background-color: red;
+  color: purple;
+}
+#title2 {
+  background-color: yellow;
+  color: orange;
+}
+#title3 {
+  background-color: indigo;
   color: white;
-</style>
+}
+.row {
+  width: 100%;
+}
+
+@media(min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media(max-width: 767) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+}
